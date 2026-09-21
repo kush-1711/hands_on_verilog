@@ -1,0 +1,82 @@
+$date
+	Tue Aug 25 16:18:47 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module full_adder_tb $end
+$var wire 1 ! Sum $end
+$var wire 1 " Cout $end
+$var reg 1 # A $end
+$var reg 1 $ B $end
+$var reg 1 % Cin $end
+$var integer 32 & a [31:0] $end
+$var integer 32 ' b [31:0] $end
+$var integer 32 ( cin [31:0] $end
+$scope module dut $end
+$var wire 1 # A $end
+$var wire 1 $ B $end
+$var wire 1 % Cin $end
+$var wire 1 " Cout $end
+$var wire 1 ! Sum $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 (
+b0 '
+b0 &
+0%
+0$
+0#
+0"
+0!
+$end
+#10
+1!
+1%
+b1 (
+#20
+0%
+1$
+b1 '
+b0 (
+#30
+1"
+0!
+1%
+b1 (
+#40
+0"
+1!
+0%
+0$
+1#
+b1 &
+b0 '
+b0 (
+#50
+1"
+0!
+1%
+b1 (
+#60
+0%
+1$
+b1 '
+b0 (
+#70
+1!
+1%
+b1 (
+#80
+b10 &
+b10 '
+b10 (
