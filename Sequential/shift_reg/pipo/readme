@@ -1,0 +1,15 @@
+PIPO Register
+
+Implemented a 4-bit Parallel-In Parallel-Out (PIPO) register in Verilog.
+
+The register:
+* Loads all 4 input bits simultaneously on the rising edge of the clock.
+* Holds the stored value until the next rising edge.
+* Uses sequential RTL with a non-blocking assignment (<=).
+* Represents four D flip-flops operating in parallel.
+
+A testbench was created to apply different 4-bit inputs, and the behavior was verified using Icarus Verilog and GTKWave.
+
+Files
+* pipo.v - PIPO register RTL
+* pipo_tb.v - Testbench for simulation
