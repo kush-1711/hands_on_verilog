@@ -5,6 +5,6 @@ module pipo (
 );
 
     always @(posedge clk) begin
-        q <= din;
+        q <= din;       // This is not a comparison operator, it is non blocking assignment. 
     end
 endmodule
